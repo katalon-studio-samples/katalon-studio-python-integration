@@ -19,4 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'demo.PythonKeywords.helloWorld'(11, 15)
+WebUI.openBrowser('https://vnexpress.net')
+
+CustomKeywords.'demo.PythonKeywords.gotoGoogle'()
+
+WebUI.closeBrowser()
+

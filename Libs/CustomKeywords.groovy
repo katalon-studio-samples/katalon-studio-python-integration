@@ -41,3 +41,25 @@ def static "demo.PythonKeywords.helloWorld"(
         	a
          , 	b)
 }
+
+def static "demo.PythonKeywords.gotoGoogle"() {
+    (new demo.PythonKeywords()).gotoGoogle()
+}
+
+def static "test.Test.refreshBrowser"() {
+    (new test.Test()).refreshBrowser()
+}
+
+def static "test.Test.clickElement"(
+    	TestObject to	) {
+    (new test.Test()).clickElement(
+        	to)
+}
+
+def static "test.Test.getHtmlTableRows"(
+    	TestObject table	
+     , 	String outerTagName	) {
+    (new test.Test()).getHtmlTableRows(
+        	table
+         , 	outerTagName)
+}

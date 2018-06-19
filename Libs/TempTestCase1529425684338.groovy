@@ -13,9 +13,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Python Test Cases\\Python Hello World\\20180618_153642\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Python Test Cases\\Python Do Something On Web\\20180619_232804\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Python Test Cases/Python Hello World', new TestCaseBinding('Test Cases/Python Test Cases/Python Hello World', [:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Python Test Cases/Python Do Something On Web', new TestCaseBinding('Test Cases/Python Test Cases/Python Do Something On Web', [:]), FailureHandling.STOP_ON_FAILURE , false)
     

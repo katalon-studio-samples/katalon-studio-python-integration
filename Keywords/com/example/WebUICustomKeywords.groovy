@@ -30,7 +30,7 @@ public class WebUICustomKeywords {
 		List<WebElement> elements = WebUiBuiltInKeywords.findWebElements(to, timeout)
 		return elements.size() > 0
 	}
-	
+
 	/**
 	 * Get all rows of HTML table
 	 * @param table Katalon test object represent for HTML table
@@ -43,7 +43,7 @@ public class WebUICustomKeywords {
 		List<WebElement> selectedRows = mailList.findElements(By.xpath("./" + outerTagName + "/tr"))
 		return selectedRows
 	}
-	
+
 	/**
 	 * Get all cells of HTML table row
 	 * @param row a WebElement instance represent for HTML table row 
@@ -54,5 +54,5 @@ public class WebUICustomKeywords {
 	def List<WebElement> getHtmlTableColumns(WebElement row, String tagName) {
 		List<WebElement> selectedColumns = row.findElements(By.tagName(tagName))
 		return selectedColumns
-	}	
+	}
 }

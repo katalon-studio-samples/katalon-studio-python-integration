@@ -13,7 +13,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Python Test Cases\\Python Hello World\\20180618_172458\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Python Test Cases\\Python Hello World\\20180619_231950\\execution.properties')
 
 TestCaseMain.beforeStart()
 
