@@ -46,6 +46,10 @@ def static "demo.PythonKeywords.gotoGoogle"() {
     (new demo.PythonKeywords()).gotoGoogle()
 }
 
+def static "demo.PythonKeywords.runRobot"() {
+    (new demo.PythonKeywords()).runRobot()
+}
+
 def static "test.Test.refreshBrowser"() {
     (new test.Test()).refreshBrowser()
 }
