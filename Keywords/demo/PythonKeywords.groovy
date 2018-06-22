@@ -16,7 +16,7 @@ class PythonKeywords {
 	def gotoGoogle() {
 		runPython("keywords.goto_google")
 	}
-	
+
 	@Keyword
 	def runRobot() {
 		runPython("keywords.run_robot")

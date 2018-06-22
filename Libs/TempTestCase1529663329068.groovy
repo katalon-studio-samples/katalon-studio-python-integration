@@ -13,9 +13,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Python Test Cases\\Python Click Button\\20180619_224952\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\BDD\\BDD Hello World\\20180622_172849\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Python Test Cases/Python Click Button', new TestCaseBinding('Test Cases/Python Test Cases/Python Click Button', [:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/BDD/BDD Hello World', new TestCaseBinding('Test Cases/BDD/BDD Hello World', [:]), FailureHandling.STOP_ON_FAILURE , false)
     
