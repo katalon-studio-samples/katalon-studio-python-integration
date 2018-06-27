@@ -1,12 +1,19 @@
+import static groovy.io.FileType.FILES
+
+import org.codehaus.groovy.control.CompilerConfiguration
+
+import com.kms.katalon.core.configuration.RunConfiguration
+
 import cucumber.api.cli.Main as Main
 
-String[] argv = ['-g', '', 'C:\\data\\katalon-projects\\python-test\\Features'].toArray()
+def root = RunConfiguration.getProjectDir()
 
-ClassLoader contextClassLoader = getClass().getClassLoader()
+String[] argv = ['-g', '', root + "/Features"].toArray()
 
 try {
-    Main.run(argv, contextClassLoader)
+    Main.run(argv, getClass().getClassLoader())
 }
 catch (Exception e) {
     e.printStackTrace()
-}
+} 
+

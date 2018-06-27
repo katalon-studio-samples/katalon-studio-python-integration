@@ -13,7 +13,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\BDD\\BDD Trigger\\20180623_102245\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\BDD\\BDD Trigger\\20180627_115125\\execution.properties')
 
 TestCaseMain.beforeStart()
 
