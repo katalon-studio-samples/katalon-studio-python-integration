@@ -24,4 +24,3 @@ WebUI.openBrowser('https://vnexpress.net')
 CustomKeywords.'demo.PythonKeywords.gotoGoogle'()
 
 WebUI.closeBrowser()
-

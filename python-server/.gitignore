@@ -1,0 +1,13 @@
+*.pyc
+
+venv
+
+.vscode
+/env
+/__pycache__
+
+geckodriver.log
+
+log.html
+output.xml
+report.html

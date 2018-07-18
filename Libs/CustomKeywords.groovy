@@ -9,6 +9,8 @@ import java.lang.String
 
 import org.openqa.selenium.WebElement
 
+import groovy.lang.Closure
+
 
 def static "com.example.WebUICustomKeywords.isElementPresent"(
     	TestObject to	
@@ -32,6 +34,12 @@ def static "com.example.WebUICustomKeywords.getHtmlTableColumns"(
     (new com.example.WebUICustomKeywords()).getHtmlTableColumns(
         	row
          , 	tagName)
+}
+
+def static "com.example.WebUICustomKeywords.testClosure"(
+    	groovy.lang.Closure<java.lang.Void> closure	) {
+    (new com.example.WebUICustomKeywords()).testClosure(
+        	closure)
 }
 
 def static "demo.PythonKeywords.helloWorld"(
