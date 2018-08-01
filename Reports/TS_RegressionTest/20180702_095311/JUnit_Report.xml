@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="20" tests="2" failures="1" errors="0">
+   <testsuite name="TS_RegressionTest" tests="2" failures="1" errors="0" time="20" timestamp="2018-07-02 09:53:13" hostname="haimnguyen - 3KR8462.mshome.net" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="c:\\data\\katalon-projects\\python-test\\Reports\\TS_RegressionTest\\20180702_095311"/>
+         <property name="logFiles" value="c:\\data\\katalon-projects\\python-test\\Reports\\TS_RegressionTest\\20180702_095311\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="haimnguyen - 3KR8462.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="172.22.134.33"/>
+         <property name="sessionId" value="dc680b9cc4b34ea4cc50cb8fa016f69f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[2018-07-02 09:53:13 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2018-07-02 09:53:14 - [TEST_STEP][PASSED] - comment: Story: Login to CURA system
+
+2018-07-02 09:53:14 - [TEST_STEP][PASSED] - comment: Given that the user has the valid login information
+
+2018-07-02 09:53:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2018-07-02 09:53:20 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2018-07-02 09:53:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2018-07-02 09:53:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2018-07-02 09:53:21 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2018-07-02 09:53:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2018-07-02 09:53:21 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2018-07-02 09:53:22 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2018-07-02 09:53:22 - [TEST_STEP][PASSED] - comment: When he logins to CURA system
+
+2018-07-02 09:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2018-07-02 09:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2018-07-02 09:53:22 - [TEST_STEP][PASSED] - comment: Then he should be able to login successfully
+
+2018-07-02 09:53:22 - [TEST_STEP][PASSED] - Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2018-07-02 09:53:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2018-07-02 09:53:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-02 09:53:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="PASSED">
+         <system-out><![CDATA[2018-07-02 09:53:23 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment
+
+2018-07-02 09:53:23 - [TEST_STEP][PASSED] - comment: Story: Book an appointment
+
+2018-07-02 09:53:23 - [TEST_STEP][PASSED] - comment: Given that the user has logged into their account
+
+2018-07-02 09:53:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2018-07-02 09:53:28 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2018-07-02 09:53:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2018-07-02 09:53:28 - [TEST_CASE][PASSED] - Test Cases/Common Test Cases/Login: Test Cases/Common Test Cases/Login
+
+2018-07-02 09:53:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2018-07-02 09:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2018-07-02 09:53:29 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2018-07-02 09:53:29 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2018-07-02 09:53:29 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2018-07-02 09:53:30 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2018-07-02 09:53:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2018-07-02 09:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2018-07-02 09:53:30 - [TEST_STEP][PASSED] - Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2018-07-02 09:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2018-07-02 09:53:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Test Cases/Login' successfully
+
+2018-07-02 09:53:30 - [TEST_STEP][PASSED] - comment: And Appointment page is displayed
+
+2018-07-02 09:53:30 - [TEST_STEP][PASSED] - Statement - If (true): Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2018-07-02 09:53:30 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2018-07-02 09:53:31 - [MESSAGE][PASSED] - All options with label 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CuraAppointment/lst_Facility' 
+
+2018-07-02 09:53:31 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2018-07-02 09:53:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Medicaid' is checked
+
+2018-07-02 09:53:31 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2018-07-02 09:53:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/chk_Readmission' is checked
+
+2018-07-02 09:53:31 - [TEST_STEP][PASSED] - setText: Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2018-07-02 09:53:31 - [MESSAGE][PASSED] - Text '27/12/2016' is set on object 'Object Repository/Page_CuraAppointment/txt_VisitDate'
+
+2018-07-02 09:53:31 - [TEST_STEP][PASSED] - setText: Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Text 'Please make appointment as soon as possible.' is set on object 'Object Repository/Page_CuraAppointment/txt_Comment'
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - comment: When he fills in valid information in Appointment page
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraAppointment/btn_BookAppointment' is clicked on
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Appointment Confirmation' is present on page 
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - comment: Then he should be able to book a new appointment
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - Statement - If (true): Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Facility' is: 'Hongkong CURA Healthcare Center'
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Actual text 'Hongkong CURA Healthcare Center' and expected text 'Hongkong CURA Healthcare Center' are matched 
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Yes' and expected text 'Yes' are matched 
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_HospitalReadmission' is: 'Yes'
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Actual text 'Yes' and expected text 'Yes' are matched 
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Program' is: 'Medicaid'
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Actual text 'Medicaid' and expected text 'Medicaid' are matched 
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - verifyMatch: Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_VisitDate' is: '27/12/2016'
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Actual text '27/12/2016' and expected text '27/12/2016' are matched 
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_AppointmentConfirmation/lbl_Comment' is: 'Please make appointment as soon as possible.'
+
+2018-07-02 09:53:32 - [MESSAGE][PASSED] - Actual text 'Please make appointment as soon as possible.' and expected text 'Please make appointment as soon as possible.' are matched 
+
+2018-07-02 09:53:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-02 09:53:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/A failed test case" classname="Test Cases/Main Test Cases/A failed test case" status="FAILED">
+         <failure type="FAILED" message="Unable to verify alert present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '3KR8462', ip: '172.22.134.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-02 09:53:33 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/A failed test case: Test Cases/Main Test Cases/A failed test case FAILED because (of) Unable to verify alert present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '3KR8462', ip: '172.22.134.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-02 09:53:33 - [TEST_STEP][FAILED] - verifyAlertPresent: Unable to verify alert present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '3KR8462', ip: '172.22.134.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-02 09:53:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-02 09:53:33 - [MESSAGE][FAILED] - Unable to verify alert present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '3KR8462', ip: '172.22.134.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-02 09:53:33 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/A failed test case: Test Cases/Main Test Cases/A failed test case FAILED because (of) Unable to verify alert present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '3KR8462', ip: '172.22.134.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-02 09:53:13 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/Main Test Cases/A failed test case FAILED because (of) Unable to verify alert present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '3KR8462', ip: '172.22.134.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-07-02 09:53:13 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/Main Test Cases/A failed test case FAILED because (of) Unable to verify alert present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '3KR8462', ip: '172.22.134.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

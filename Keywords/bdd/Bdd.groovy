@@ -4,6 +4,11 @@ import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
+@Given("there are {int} cucumbers")
+def haha(Object start) {
+	System.out.println("Duoc roi " + start)
+}
+
 @Given("today is 2011-01-20")
 def today_is() {
 	System.out.println("given haha")

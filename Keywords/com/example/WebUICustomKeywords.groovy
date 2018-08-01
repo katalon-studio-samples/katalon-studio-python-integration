@@ -55,4 +55,9 @@ public class WebUICustomKeywords {
 		List<WebElement> selectedColumns = row.findElements(By.tagName(tagName))
 		return selectedColumns
 	}
+	
+	@Keyword
+	def testClosure(Closure<Void> closure) {
+		
+	}
 }
