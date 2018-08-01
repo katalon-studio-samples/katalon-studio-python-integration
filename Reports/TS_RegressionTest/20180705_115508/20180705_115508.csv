@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,Chrome 67.0.3396.99,,2018-07-05 11:55:15,2018-07-05 11:55:44,29.247s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 67.0.3396.99,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2018-07-05 11:55:16,2018-07-05 11:55:30,14.774s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:16,2018-07-05 11:55:16,0.076s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:16,2018-07-05 11:55:16,0.002s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-05 11:55:16,2018-07-05 11:55:27,10.568s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 11:55:27,2018-07-05 11:55:27,0.695s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-05 11:55:27,2018-07-05 11:55:28,0.348s,PASSED
+setText,Chrome 67.0.3396.99,,2018-07-05 11:55:28,2018-07-05 11:55:28,0.269s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:28,2018-07-05 11:55:28,0.002s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 11:55:28,2018-07-05 11:55:29,0.793s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:29,2018-07-05 11:55:29,0.002s,PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Chrome 67.0.3396.99,,2018-07-05 11:55:29,2018-07-05 11:55:29,0.121s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 11:55:29,2018-07-05 11:55:30,1.319s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 67.0.3396.99,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2018-07-05 11:55:30,2018-07-05 11:55:44,13.875s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:31,2018-07-05 11:55:31,0.002s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:31,2018-07-05 11:55:31,0.001s,PASSED
+openBrowser,Chrome 67.0.3396.99,,2018-07-05 11:55:31,2018-07-05 11:55:38,7.272s,PASSED
+callTestCase,Chrome 67.0.3396.99,,2018-07-05 11:55:38,2018-07-05 11:55:41,2.574s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:41,2018-07-05 11:55:41,0.001s,PASSED
+Statement - If (true),Chrome 67.0.3396.99,,2018-07-05 11:55:41,2018-07-05 11:55:42,1.463s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:42,2018-07-05 11:55:42,0.001s,PASSED
+click,Chrome 67.0.3396.99,,2018-07-05 11:55:42,2018-07-05 11:55:43,0.529s,PASSED
+verifyTextPresent,Chrome 67.0.3396.99,,2018-07-05 11:55:43,2018-07-05 11:55:43,0.158s,PASSED
+comment,Chrome 67.0.3396.99,,2018-07-05 11:55:43,2018-07-05 11:55:43,0.001s,PASSED
+Statement - If (true),Chrome 67.0.3396.99,,2018-07-05 11:55:43,2018-07-05 11:55:43,0.407s,PASSED
+closeBrowser,Chrome 67.0.3396.99,,2018-07-05 11:55:43,2018-07-05 11:55:44,1.133s,PASSED

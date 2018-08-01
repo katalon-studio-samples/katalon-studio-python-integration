@@ -4,6 +4,19 @@
    <name>lbl_Program</name>
    <tag></tag>
    <elementGuidId>ed12c1cf-7f76-4e6c-959a-7453fd4a3c45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'program' and @id = 'toi di hoc']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
