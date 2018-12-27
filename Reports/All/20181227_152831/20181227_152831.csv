@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+All,Chrome 71.0.3578.98,,2018-12-27 15:28:34,2018-12-27 15:28:56,22.472s,PASSED
+,,,,,,
+Test Cases/Python Test Cases/Python Do Something On Web,Chrome 71.0.3578.98,,2018-12-27 15:28:34,2018-12-27 15:28:54,20.411s,PASSED
+"openBrowser(""https://www.katalon.com"")",Chrome 71.0.3578.98,,2018-12-27 15:28:34,2018-12-27 15:28:44,9.339s,PASSED
+demo.PythonKeywords.gotoGoogle(),Chrome 71.0.3578.98,,2018-12-27 15:28:44,2018-12-27 15:28:54,9.897s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-27 15:28:54,2018-12-27 15:28:54,0.750s,PASSED
+,,,,,,
+Test Cases/Python Test Cases/Python Hello World,Chrome 71.0.3578.98,,2018-12-27 15:28:54,2018-12-27 15:28:56,1.754s,PASSED
+"demo.PythonKeywords.helloWorld(11, 15)",Chrome 71.0.3578.98,,2018-12-27 15:28:55,2018-12-27 15:28:56,1.515s,PASSED

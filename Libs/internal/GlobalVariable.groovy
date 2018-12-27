@@ -34,11 +34,18 @@ public class GlobalVariable {
         allVariables.put('default', ['G_Timeout' : 10, 'G_SiteURL' : 'http://demoaut.katalon.com', 'G_ShortTimeOut' : 5])
         
         String profileName = RunConfiguration.getExecutionProfile()
-        
         def selectedVariables = allVariables[profileName]
-        G_Timeout = selectedVariables['G_Timeout']
-        G_SiteURL = selectedVariables['G_SiteURL']
-        G_ShortTimeOut = selectedVariables['G_ShortTimeOut']
+		
+		for(object in selectedVariables){
+			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
+			if(overridingGlobalVariable != null){
+				selectedVariables.put(object.key, overridingGlobalVariable)
+			}
+		}
+
+        G_Timeout = selectedVariables["G_Timeout"]
+        G_SiteURL = selectedVariables["G_SiteURL"]
+        G_ShortTimeOut = selectedVariables["G_ShortTimeOut"]
         
     }
 }

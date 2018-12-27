@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-27T15:24:39</date>
+  <millis>1545899079299</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/All</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">All</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/All</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:39</date>
+  <millis>1545899079316</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = haimnguyen - D24ZQN2.kms.com.vn</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">haimnguyen - D24ZQN2.kms.com.vn</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:39</date>
+  <millis>1545899079317</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:39</date>
+  <millis>1545899079317</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.99.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.99.1</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:39</date>
+  <millis>1545899079321</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.0.1</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:39</date>
+  <millis>1545899079577</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Python Test Cases/Python Do Something On Web</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Python Test Cases/Python Do Something On Web</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Python Test Cases/Python Do Something On Web</property>
+  <property name="source">C:\\data\\katalon-python-bdd-poc\\Test Cases\\Python Test Cases\\Python Do Something On Web.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:39</date>
+  <millis>1545899079982</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;https://www.katalon.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:40</date>
+  <millis>1545899080378</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:40</date>
+  <millis>1545899080418</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:44</date>
+  <millis>1545899084594</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 2e0822e8977d1e5186980affaea4ffde</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">2e0822e8977d1e5186980affaea4ffde</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:44</date>
+  <millis>1545899084651</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 71.0.3578.98</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 71.0.3578.98</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:44</date>
+  <millis>1545899084652</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:44</date>
+  <millis>1545899084656</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:44</date>
+  <millis>1545899084658</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:50</date>
+  <millis>1545899090518</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;https://www.katalon.com&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:50</date>
+  <millis>1545899090522</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;https://www.katalon.com\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:50</date>
+  <millis>1545899090524</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : demo.PythonKeywords.gotoGoogle()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:50</date>
+  <millis>1545899090624</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:50</date>
+  <millis>1545899090641</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\ks_py_output_2749009966167886121.tmp</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:50</date>
+  <millis>1545899090727</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>{\&amp;quot;keyword\&amp;quot;:\&amp;quot;keywords.goto_google\&amp;quot;,\&amp;quot;keywordArgs\&amp;quot;:[],\&amp;quot;outputPath\&amp;quot;:\&amp;quot;C:\\\\Users\\\\HAIMNG~1\\\\AppData\\\\Local\\\\Temp\\\\ks_py_output_2749009966167886121.tmp\&amp;quot;,\&amp;quot;webDriver\&amp;quot;:{\&amp;quot;sessionId\&amp;quot;:\&amp;quot;2e0822e8977d1e5186980affaea4ffde\&amp;quot;,\&amp;quot;serverUrl\&amp;quot;:\&amp;quot;http://localhost:38567\&amp;quot;}}</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:50</date>
+  <millis>1545899090733</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Project directory C:/data/katalon-python-bdd-poc</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:52</date>
+  <millis>1545899092833</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finish Python keyword execution</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:52</date>
+  <millis>1545899092835</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>demo.PythonKeywords.gotoGoogle is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:52</date>
+  <millis>1545899092836</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : demo.PythonKeywords.gotoGoogle()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:52</date>
+  <millis>1545899092836</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093552</millis>
+  <sequence>30</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093553</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093553</millis>
+  <sequence>32</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Python Test Cases/Python Do Something On Web</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093553</millis>
+  <sequence>33</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Python Test Cases/Python Do Something On Web</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093561</millis>
+  <sequence>34</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Python Test Cases/Python Hello World</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Python Test Cases/Python Hello World</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Python Test Cases/Python Hello World</property>
+  <property name="source">C:\\data\\katalon-python-bdd-poc\\Test Cases\\Python Test Cases\\Python Hello World.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093765</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : demo.PythonKeywords.helloWorld(11, 15)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093766</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>[11, 15]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093767</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\ks_py_output_2046076002798102566.tmp</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093772</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>{\&amp;quot;keyword\&amp;quot;:\&amp;quot;keywords.hello_world\&amp;quot;,\&amp;quot;keywordArgs\&amp;quot;:[11,15],\&amp;quot;outputPath\&amp;quot;:\&amp;quot;C:\\\\Users\\\\HAIMNG~1\\\\AppData\\\\Local\\\\Temp\\\\ks_py_output_2046076002798102566.tmp\&amp;quot;}</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:53</date>
+  <millis>1545899093775</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Project directory C:/data/katalon-python-bdd-poc</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095395</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Hello, World from print</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095395</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(&amp;apos;Sum of&amp;apos;, (11, 15))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095395</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(&amp;apos;Sum is&amp;apos;, 26)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095396</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finish Python keyword execution</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095396</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>demo.PythonKeywords.helloWorld is PASSED</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095396</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : demo.PythonKeywords.helloWorld(11, 15)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095396</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Python Test Cases/Python Hello World</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095397</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Python Test Cases/Python Hello World</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-12-27T15:24:55</date>
+  <millis>1545899095437</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/All</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

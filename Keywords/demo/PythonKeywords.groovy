@@ -1,5 +1,6 @@
 package demo
 import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.exception.BrowserNotOpenedException
@@ -17,16 +18,11 @@ class PythonKeywords {
 		runPython("keywords.goto_google")
 	}
 
-	@Keyword
-	def runRobot() {
-		runPython("keywords.run_robot")
-	}
-
 	private runPython(String script, Object[] keywordArgs) {
 		try {
-			System.out.println(keywordArgs)
+			KeywordUtil.logInfo(Arrays.deepToString(keywordArgs))
 			def outputFile = File.createTempFile("ks_py_output_", ".tmp")
-			System.out.println(outputFile.absolutePath)
+			KeywordUtil.logInfo(outputFile.absolutePath)
 
 			def allArgs = [
 				keyword: script,
@@ -45,12 +41,13 @@ class PythonKeywords {
 
 			def inputFile = File.createTempFile("ks_py_input_", ".tmp")
 			def allArgsJson = groovy.json.JsonOutput.toJson(allArgs)
-			System.out.println(allArgsJson)
+			KeywordUtil.logInfo(allArgsJson)
 			inputFile.write(allArgsJson)
 
+			KeywordUtil.logInfo("Project directory " + RunConfiguration.getProjectDir());
 			def pb = new ProcessBuilder(
 					"python",
-					"c:/data/python-server/execution.py",
+					RunConfiguration.getProjectDir() + "/python-server/execution.py",
 					inputFile.absolutePath)
 			def process = pb.start()
 			def errCode = process.waitFor()

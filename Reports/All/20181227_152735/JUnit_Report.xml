@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All" time="20" tests="2" failures="0" errors="0">
+   <testsuite name="All" tests="2" failures="0" errors="0" time="20" timestamp="2018-12-27 15:27:38" hostname="haimnguyen - D24ZQN2.kms.com.vn" id="Test Suites/All">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\data\\katalon-python-bdd-poc\\Reports\\All\\20181227_152735"/>
+         <property name="logFiles" value="C:\\data\\katalon-python-bdd-poc\\Reports\\All\\20181227_152735\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="haimnguyen - D24ZQN2.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="sessionId" value="8105eeb083c5d5d9cc8fb63eebbc4a18"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Python Test Cases/Python Do Something On Web" classname="Test Cases/Python Test Cases/Python Do Something On Web" status="PASSED">
+         <system-out><![CDATA[2018-12-27 15:27:38 - [TEST_CASE][PASSED] - Test Cases/Python Test Cases/Python Do Something On Web: Test Cases/Python Test Cases/Python Do Something On Web
+
+2018-12-27 15:27:39 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com"): Browser is opened with url: 'https://www.katalon.com'
+
+2018-12-27 15:27:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-27 15:27:39 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-27 15:27:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com'
+
+2018-12-27 15:27:47 - [TEST_STEP][PASSED] - demo.PythonKeywords.gotoGoogle(): demo.PythonKeywords.gotoGoogle is PASSED
+
+2018-12-27 15:27:47 - [MESSAGE][INFO] - []
+
+2018-12-27 15:27:47 - [MESSAGE][INFO] - C:\Users\HAIMNG~1\AppData\Local\Temp\ks_py_output_5482467787897451352.tmp
+
+2018-12-27 15:27:47 - [MESSAGE][INFO] - {"keyword":"keywords.goto_google","keywordArgs":[],"outputPath":"C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\ks_py_output_5482467787897451352.tmp","webDriver":{"sessionId":"8105eeb083c5d5d9cc8fb63eebbc4a18","serverUrl":"http://localhost:33634"}}
+
+2018-12-27 15:27:47 - [MESSAGE][INFO] - Project directory C:/data/katalon-python-bdd-poc
+
+2018-12-27 15:27:56 - [MESSAGE][INFO] - Finish Python keyword execution
+
+2018-12-27 15:27:56 - [MESSAGE][PASSED] - demo.PythonKeywords.gotoGoogle is PASSED
+
+2018-12-27 15:27:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-27 15:27:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Python Test Cases/Python Hello World" classname="Test Cases/Python Test Cases/Python Hello World" status="PASSED">
+         <system-out><![CDATA[2018-12-27 15:27:57 - [TEST_CASE][PASSED] - Test Cases/Python Test Cases/Python Hello World: Test Cases/Python Test Cases/Python Hello World
+
+2018-12-27 15:27:57 - [TEST_STEP][PASSED] - demo.PythonKeywords.helloWorld(11, 15): demo.PythonKeywords.helloWorld is PASSED
+
+2018-12-27 15:27:57 - [MESSAGE][INFO] - [11, 15]
+
+2018-12-27 15:27:57 - [MESSAGE][INFO] - C:\Users\HAIMNG~1\AppData\Local\Temp\ks_py_output_505036769789622162.tmp
+
+2018-12-27 15:27:57 - [MESSAGE][INFO] - {"keyword":"keywords.hello_world","keywordArgs":[11,15],"outputPath":"C:\\Users\\HAIMNG~1\\AppData\\Local\\Temp\\ks_py_output_505036769789622162.tmp"}
+
+2018-12-27 15:27:57 - [MESSAGE][INFO] - Project directory C:/data/katalon-python-bdd-poc
+
+2018-12-27 15:27:58 - [MESSAGE][INFO] - Hello, World from print
+
+2018-12-27 15:27:58 - [MESSAGE][INFO] - ('Sum of', (11, 15))
+
+2018-12-27 15:27:58 - [MESSAGE][INFO] - ('Sum is', 26)
+
+2018-12-27 15:27:58 - [MESSAGE][INFO] - Finish Python keyword execution
+
+2018-12-27 15:27:58 - [MESSAGE][PASSED] - demo.PythonKeywords.helloWorld is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-27 15:27:38 - [TEST_SUITE][PASSED] - All: Test Cases/Python Test Cases/Python Hello World]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
