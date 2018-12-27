@@ -47,7 +47,7 @@ class PythonKeywords {
 			KeywordUtil.logInfo("Project directory " + RunConfiguration.getProjectDir());
 			def pb = new ProcessBuilder(
 					"python",
-					RunConfiguration.getProjectDir() + "/python-server/execution.py",
+					RunConfiguration.getProjectDir() + "/python/execution.py",
 					inputFile.absolutePath)
 			def process = pb.start()
 			def errCode = process.waitFor()
