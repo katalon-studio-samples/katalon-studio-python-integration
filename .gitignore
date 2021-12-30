@@ -2,3 +2,8 @@
 bin
 Libs
 Reports
+
+.project
+.cache
+.settings
+settings/internal/com.kms.katalon.composer.testcase.properties

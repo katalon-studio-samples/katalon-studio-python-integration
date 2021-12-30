@@ -1,4 +1,6 @@
 package demo
+import org.openqa.selenium.support.events.EventFiringWebDriver
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.util.KeywordUtil
@@ -32,6 +34,9 @@ class PythonKeywords {
 
 			try {
 				def webdriver = DriverFactory.getWebDriver()
+				if (webdriver instanceof EventFiringWebDriver) {
+					webdriver = ((EventFiringWebDriver) webdriver).getWrappedDriver()
+				}
 				allArgs["webDriver"] = [
 					sessionId: webdriver.getSessionId().toString(),
 					serverUrl: DriverFactory.getWebDriverServerUrl(webdriver)
